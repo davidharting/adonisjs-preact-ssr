@@ -6,7 +6,7 @@ However, the type-safety does not extend to the templates, which are rendered as
 
 I wanted a way to achieve two things:
 
-1. Keep the simplicity of server-only rendering and defining all application and vie4w logic "inside" Adonis.
+1. Keep the simplicity of server-only rendering and defining all application and view logic "inside" Adonis.
 2. Type-safety for my HTML, using familiar JSX components.
 
 To achieve this, I define pages and components using JSX, and then render it to a string with Preact.
