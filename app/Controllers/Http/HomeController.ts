@@ -25,7 +25,7 @@ type RenderOptions = {
   layout?: string
 }
 const render = (ctx: HttpContextContract, component: VNode | null, options: RenderOptions = {}) => {
-  const layout = options.layout ?? 'welcome'
+  const layout = options.layout ?? 'layout/app'
   let contents = ''
   if (component) {
     contents = preactRenderToString(component)
